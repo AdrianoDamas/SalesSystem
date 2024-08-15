@@ -1,13 +1,13 @@
 version: '3.4'
 
 services:
-  example.api:
-    image: ${DOCKER_REGISTRY-}exampleapi
+  sales.api:
+    image: ${DOCKER_REGISTRY-}salesapi
     depends_on:
     - sqldata
     build:
       context: .
-      dockerfile: src/Example.API/Dockerfile
+      dockerfile: src/Sales.API/Dockerfile
     environment:
       DBConnection: "Data Source=sqldata,1433;Initial Catalog=master;Persist Security Info=True;User ID=sa;Password=Stefanini@123"
 
