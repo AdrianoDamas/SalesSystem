@@ -1,4 +1,4 @@
-# Desafio para candidatos da Stefanini
+# Desafio para candidatos
 
 ## 1. Estudo de caso
 
